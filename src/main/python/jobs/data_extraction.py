@@ -121,6 +121,10 @@ def main():
     """
     organization = GITHUB_ORGANIZATION
 
+    if organization is None:
+        print("No GitHub organization name provided.")
+        return
+
     # Define the project root path and construct the dynamic path using pathlib
     project_root_path = (
         Path(__file__).resolve().parents[2]
