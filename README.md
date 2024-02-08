@@ -1,1 +1,1 @@
-# scytale-exercise-justine
+Project description and setup instructions.
