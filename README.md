@@ -6,6 +6,15 @@ This project showcases a quick solution designed for efficient data engineering,
 
 The foundation of this project is built upon a well-organized directory structure, derived from a widely-adopted cookie-cutter template. This template is specifically chosen for its applicability in general data engineering projects, ensuring a standardized and intuitive layout.
 
+## Requirements
+- Install requirements.txt
+- Spark is installed/configured in a Windows Environment so might need to replicate the same using this [link](https://sparkbyexamples.com/pyspark-tutorial/)
+
+- Create a .env file in the root directory that contains the following:
+  - GITHUB_API_TOKEN (value: API token of your account/application)
+  - GITHUB_ORGANIZATION (value: Scytale-exercise)
+
+
 ## Key Components:
 
 - **Source Code** (src/main/python/jobs): This directory is the heart of the project, housing the main functional scripts that drive the data processing pipeline.
