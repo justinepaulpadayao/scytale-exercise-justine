@@ -9,7 +9,6 @@ The foundation of this project is built upon a well-organized directory structur
 ## Requirements
 - Install requirements.txt
 - Spark is installed/configured in a Windows Environment so might need to replicate the same using this [link](https://sparkbyexamples.com/pyspark-tutorial/)
-
 - Create a .env file in the root directory that contains the following:
   - GITHUB_API_TOKEN (value: API token of your account/application)
   - GITHUB_ORGANIZATION (value: Scytale-exercise)
